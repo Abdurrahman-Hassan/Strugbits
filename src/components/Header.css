@@ -1,0 +1,28 @@
+.Header {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  color: black;
+  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100vw;
+  background: white;
+}
+.Header h1 {
+  margin: 0;
+  margin-left: 70px;
+}
+@media only screen and (max-width: 768px) {
+  .Header h1 {
+    margin-left: 60px;
+  }
+  .Header {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    justify-content: center;
+  }
+}

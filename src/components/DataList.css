@@ -1,0 +1,421 @@
+.listmaindiv {
+  margin-top: 76px;
+  width: 100%;
+  display: flex;
+  margin-left: 70px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Lato", sans-serif;
+}
+.listlabeldiv :nth-child(1) {
+  margin-left: 2vw;
+}
+.listlabeldiv button {
+  color: #015249;
+  font-size: 22px;
+  background: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+.listlabeldiv {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60vw;
+}
+
+.abovelistlabeldiv {
+  display: flex;
+  width: 68vw;
+  max-width: 1372px;
+  height: 60px;
+  background: #57bc903d;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.userlabels :nth-child(1) {
+  margin-left: 5vw;
+}
+.userlabels :nth-child(1) {
+  color: #5a5f65;
+}
+.userlabels :nth-child(2) {
+  margin: 0;
+  color: #57bc90;
+  text-decoration: underline;
+}
+.userlabels :nth-child(3) {
+  margin: 0;
+  margin-left: -100px;
+  color: #5a5f65;
+}
+.userlabels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 60vw;
+}
+.user {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 124px;
+  box-shadow: 0px 3px 5px #8d8d8d1a;
+  border-radius: 10px;
+}
+.ListwithData img {
+  width: 105px;
+  height: 109px;
+  border-radius: 10px;
+  margin-left: 16px;
+}
+.ListwithData {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  width: 68vw;
+  max-width: 1372px;
+}
+.deletebtn {
+  width: 106px;
+  height: 33px;
+  /* UI Properties */
+  background: #d800004b 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  color: #d80000;
+  border: none;
+}
+.editbtn {
+  width: 106px;
+  height: 33px;
+  background: #39b54a50 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  /* opacity: 0.4; */
+  border: none;
+  color: #008212;
+}
+.editdeletebtn {
+  width: 150px;
+  display: flex; /* 
+  margin-left: 75px; */
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 1750px) {
+  .abovelistlabeldiv {
+    width: 72vw;
+  }
+  .ListwithData {
+    width: 72vw;
+  }
+  .userlabels {
+    width: 47vw;
+  }
+
+  .userlabels :nth-child(1) {
+    margin-left: 9vw;
+  }
+  .editdeletebtn {
+    width: auto;
+    display: flex;
+    margin-left: 75px;
+  }
+}
+.editdialog {
+  padding: 0;
+  border: none;
+  /*top: 228px;
+  left: 696px; */
+  width: 27vw;
+  height: 53vh;
+  /* UI Properties */
+  /* background: transparent url('img/Base.png') 0% 0% no-repeat padding-box;
+   */
+  box-shadow: 0px 5px 30px #0000004d;
+  border-radius: 20px;
+  opacity: 1;
+}
+.deletedialog {
+  padding: 0;
+  border: none;
+  /*top: 228px;
+left: 696px; */
+  width: 27vw;
+  height: 53vh;
+  /* UI Properties */
+  /* background: transparent url('img/Base.png') 0% 0% no-repeat padding-box;
+ */
+  box-shadow: 0px 5px 30px #0000004d;
+  border-radius: 20px;
+  opacity: 1;
+}
+.deletedialogdiv h3 {
+  font-size: 30px;
+  margin: 0;
+}
+.deletedialogdiv p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  font-size: 120%;
+}
+.deletedialogdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2vh;
+}
+.dustbinlogodiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  font-size: 90px;
+  color: red;
+}
+.deletedialogbtnsdiv :nth-child(1) {
+  width: 11vw;
+  height: 6vh;
+  border-radius: 10px;
+  opacity: 1;
+  background: #a5a5af;
+  border: none;
+  color: white;
+}
+.deletedialogbtnsdiv :nth-child(2) {
+  width: 11vw;
+  height: 6vh;
+  border-radius: 10px;
+  opacity: 1;
+  background: #d80000;
+  border: none;
+  color: white;
+}
+.deletedialogbtnsdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+.deletedialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000; /* Ensure it appears above other content */
+  border-radius: 5px;
+}
+
+.deletedialog h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.deletedialog p {
+  margin-top: 10px;
+}
+
+.deletedialogbtnsdiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.deletedialogbtnsdiv button {
+  margin-left: 10px;
+}
+/* Add this CSS to your stylesheet */
+.edit-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent gray background */
+  z-index: 999; /* Ensure it appears below the dialog but above other content */
+}
+
+.dialog {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1001; /* Ensure it appears above the backdrop and other content */
+}
+@media only screen and (max-width: 768px) {
+  .listmaindiv {
+    margin-top: 61px;
+    width: 100vw;
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+  }
+  .abovelistlabeldiv {
+    display: flex;
+
+    width: 90vw;
+    max-width: 1372px;
+    height: 65px;
+    background: #57bc903d;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .user {
+  overflow: hidden;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90vw;
+    height: 200px;
+    box-shadow: 0px 3px 5px #8d8d8d1a;
+    border-radius: 10px;
+  }
+  .ListwithData img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  .editdeletebtn {
+    width: 90vw;
+    display: flex;
+    /* margin-left: 75px; */
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+  }
+  .ListwithData {
+    width: 90vw;
+  }
+  .userlabels {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 69vw;
+  }
+  .userlabels :nth-child(1) {
+    text-align: center;
+    margin-left: 8px;
+  }
+  .userlabels :nth-child(2) {
+    margin-left: 2px;
+    text-align: center;
+  }
+  .userlabels :nth-child(3) {
+    margin-left: 2px;
+    text-align: center;
+    width: 100px;
+    word-break: break-word;
+  }
+  .listlabeldiv button {
+    color: #015249;
+    font-size: 16px;
+  }
+  .listlabeldiv {
+    margin-left: -20px;
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .deletedialog {
+    width: 85vw;
+  }
+  .deletedialogdiv p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size: 120%;
+  }
+  .deletedialogbtnsdiv :nth-child(1) {
+    width: 27vw;
+  }
+  .deletedialogbtnsdiv :nth-child(2) {
+    width: 27vw;
+  }
+}

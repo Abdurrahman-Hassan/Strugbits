@@ -1,0 +1,17 @@
+.maindiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.mainside {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}

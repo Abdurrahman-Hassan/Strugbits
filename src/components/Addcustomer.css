@@ -1,0 +1,163 @@
+.addcustomerdiv {
+  margin-left: 70px;
+  margin-top: 47px;
+}
+.modalopenbtn span {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.modalopenbtn {
+  /* Layout Properties */
+  top: 197px;
+  left: 469px;
+  width: 344px;
+  height: 70px;
+  /* UI Properties */
+  background: linear-gradient(105deg, #57bc90, #004b40);
+  border-radius: 10px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.dialog {
+  padding: 0;
+  border: none;
+  /*top: 228px;
+left: 696px; */
+  width: 27vw;
+  height: 53vh;
+  /* UI Properties */
+  /* background: transparent url('img/Base.png') 0% 0% no-repeat padding-box;
+ */
+  box-shadow: 0px 5px 30px #0000004d;
+  border-radius: 20px;
+  opacity: 1;
+}
+.closebtndiv button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.closebtndiv {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  width: 96%;
+}
+.addcutomerheader {
+  background: url("../assets/addcustomer.svg");
+  height: 13vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px 20px 0px 0px;
+}
+.addcustomerheading {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.addcustomerheading h3 {
+  font-size: 200%;
+  color: white;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.formdiv form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4vh;
+}
+.formdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 5vh;
+}
+#customername {
+  width: 23vw;
+  height: 5vh;
+  border: 1px solid #dcdbdd;
+  border-radius: 10px;
+  opacity: 1;
+}
+#email {
+  width: 23vw;
+  height: 5vh;
+  border: 1px solid #dcdbdd;
+  border-radius: 10px;
+  opacity: 1;
+}
+#photolabel {
+  color: #57bc90;
+  font-size: 20px;
+}
+#addcustomersubmitbtn {
+  width: 23vw;
+  height: 5vh;
+  border-radius: 10px;
+  opacity: 1;
+  background: linear-gradient(100deg, #57bc90, #004b40);
+  color: white;
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+  .addcustomerdiv {
+    margin-left: 0;
+    margin-top: 47px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .dialog {
+    width: 91vw;
+    height: 50vh;
+  }
+  #customername {
+    width: 71vw;
+    height: 6vh;
+  }
+  #email {
+    width: 71vw;
+    height: 6vh;
+  }
+  #addcustomersubmitbtn {
+    width: 71vw;
+    height: 6vh;
+  }
+}
